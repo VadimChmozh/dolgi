@@ -19,12 +19,14 @@ for (let num = 0; num <= 10; num++) {
 
 let num = 1;
 
-while (num <= 1) {
+while (num <= 3) {
   console.log(num);
   num++;
 }
 
+let num1 = 4;
+
 do {
   console.log(num);
   num++;
-} while (num <= 1);
+} while (num <= 3);
