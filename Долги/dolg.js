@@ -15,7 +15,6 @@ for (let num = 0; num <= 10; num++) {
   if (num % 2 === 0) {
     console.log(num);
   }
-}
 
 let num = 1;
 
@@ -24,9 +23,9 @@ while (num <= 3) {
   num++;
 }
 
-let num1 = 4;
+let num = 5;
 
 do {
   console.log(num);
-  num++;
+  ++num;
 } while (num <= 3);
